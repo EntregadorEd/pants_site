@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagens/background_3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(https://yt3.googleusercontent.com/BpF0ZNs2gOBlGftAzsHdv0wEoP5a-yUQNwzq9TJ0SBr9ADnL6FIEuxyMdquTLYKZlNqcG7j0DQ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj);
+  width: 100%;
+  padding: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pantito{
+    height: 8rem;
+    width: 8rem;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color:rgb(3, 216, 209);
+}
+.shorts-wrapper {
+  padding: 40px 20px;
+}
+
+.shorts-row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.shorts-video {
+  width: 100%;
+  max-width: 360px;
+  aspect-ratio: 9 / 16;
+  border: 4px solid #03d8d1;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(3, 216, 209, 0.4);
+}
+.shorts-video iframe {
+  width: 100%;
+  height: 100%;
+}
