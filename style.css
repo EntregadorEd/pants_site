@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagens/background_5.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(https://yt3.googleusercontent.com/BpF0ZNs2gOBlGftAzsHdv0wEoP5a-yUQNwzq9TJ0SBr9ADnL6FIEuxyMdquTLYKZlNqcG7j0DQ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj);
+  width: 100%;
+  padding: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pantito{
+    height: 8rem;
+    width: 8rem;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color:rgb(3, 216, 209);
+}
+p{
+  font-size: 18px;
+  color:rgb(212, 67, 67);
+  background-color: rgb(140,187,235);
+  height: 4em;
+  width: 25em;
+}
+
+.sobre{
+  margin-top: 10em;
+}
+.sobretexto, .regrastexto, .parceriastexto, .donatetexto, .pare, .pare2{
+  color:rgb(255, 118, 177);
+  background-color: rgb(3, 216, 209);
+  width: 7.5em;
+  border-color: rgb(255, 118, 177);
+  border: 3px solid;
+  border-radius: 20px;
+}
+.regras{
+margin-left: 30em;
+margin-top: -38.5em;
+}
+.parcerias{
+  margin-left: 60em;
+  margin-top: -39.5em;
+}
+.parceriastexto{
+  text-align: center;
+}
+.kojima{
+  background-color: rgb(3, 216, 209);
+  width: 20em;
+  border: 4px solid;
+  border-color:rgb(4, 84, 95);
+  border-radius: 20px;
+}
+.kojimatexto{
+  color:rgb(255, 118, 177);
+  background-color: rgb(3, 216, 209);
+  width: 13em;
+  border: 3px solid;
+  border-radius: 20px;
+  text-align: center;
+}
+.nada{
+  color:rgb(255, 118, 177);
+}
+.videostexto{
+  margin-top: -10em;
+  margin-left: 4em;
+  color:rgb(255, 118, 177);
+  background-color: rgb(3, 216, 209);
+  width: 22em;
+  border: 3px solid;
+  border-radius: 20px;
+  margin-bottom: 2em;
+}
+.shorts-wrapper {
+  padding: 40px 20px;
+}
+
+.shorts-row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.shorts-video {
+  width: 100%;
+  max-width: 360px;
+  aspect-ratio: 9 / 16;
+  border: 4px solid #03d8d1;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(3, 216, 209, 0.4);
+}
+.shorts-video iframe {
+  width: 100%;
+  height: 100%;
+}
+.video-normal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.video-normal iframe {
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(3, 216, 209, 0.4);
+  border: 4px solid #03d8d1;
+  border-radius: 15px;
+}
+
+.videostexto2 {
+  color:rgb(255, 118, 177);
+  background-color: rgb(3, 216, 209);
+  width: 14.2em;
+  border: 3px solid;
+  border-radius: 20px;
+  margin-bottom: 2em;
+  margin-left: 5em;
+}
+.donate{
+  margin-left: 60em;
+  margin-top: -39.5em; 
+}
+.donatetexto{
+  width: 11em;
+}
+h4{
+  margin-top: 27.5em;
+  color:rgb(255, 118, 177);
+  background-color: rgb(3, 216, 209);
+  width: 9em;
+  border-color: rgb(255, 118, 177);
+  border: 3px solid;
+  border-radius: 20px;
+  margin-top: 0em;
+}
+.links{
+  background-color: rgb(3, 216, 209);
+  width: 20em;
+  border: 4px solid;
+  border-color:rgb(4, 84, 95);
+  border-radius: 20px;
+  margin-left: 60em;
+}
+.linkstexto, .exclamacao{
+  color:rgb(255, 118, 177);
+}
+.shuckle{
+  border: 4px solid;
+  border-color: red;
+  border-radius: 20px;
+  margin-top: 5em;
+  margin-left: 30em;
+  width: 400px;
+  height: 300px;
+}
+.paras{
+  background-color: rgb(3, 216, 209);
+  width: 70em;
+  border: 4px solid;
+  border-color:rgb(4, 84, 95);
+  border-radius: 20px;
+  margin-left: 10em;
+}
+.pare{
+  margin-left: 18em;
+  text-align: center;
+  margin-top: 5em;
+}
+.pare2{
+  width: 30em;
+  text-align: center;
+  margin-left: 21em;
+}
+.linkstexto :hover{
+  background-color: rgb(4, 84, 95);
+  color:deeppink;
+  height: 1.5em;
+  font-size: 2em;
+}
+.inicio :hover{
+  font-size: 1.5em;
+}
+.energetico{
+  border-radius: 2em;
+  height: 19.5em;
+  width: 19.5em;
+}
