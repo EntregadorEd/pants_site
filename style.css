@@ -42,10 +42,10 @@ p{
   margin-top: 10em;
 }
 .sobretexto, .regrastexto, .parceriastexto, .donatetexto, .pare, .pare2{
-  color:rgb(255, 118, 177);
-  background-color: rgb(3, 216, 209);
+  color:rgb(212, 67, 67);
+  background-color: rgb(140,187,235);
   width: 7.5em;
-  border-color: rgb(255, 118, 177);
+  border-color: rgb(212, 67, 67);
   border: 3px solid;
   border-radius: 20px;
 }
@@ -61,28 +61,28 @@ margin-top: -38.5em;
   text-align: center;
 }
 .kojima{
-  background-color: rgb(3, 216, 209);
+  background-color: rgb(140,187,235);
   width: 20em;
   border: 4px solid;
   border-color:rgb(4, 84, 95);
   border-radius: 20px;
 }
 .kojimatexto{
-  color:rgb(255, 118, 177);
-  background-color: rgb(3, 216, 209);
+  color:rgb(212, 67, 67);
+  background-color: rgb(140,187,235);
   width: 13em;
   border: 3px solid;
   border-radius: 20px;
   text-align: center;
 }
 .nada{
-  color:rgb(255, 118, 177);
+  color:rgb(212, 67, 67);
 }
 .videostexto{
   margin-top: -10em;
   margin-left: 4em;
-  color:rgb(255, 118, 177);
-  background-color: rgb(3, 216, 209);
+  color:rgb(212, 67, 67);
+  background-color: rgb(140,187,235);
   width: 22em;
   border: 3px solid;
   border-radius: 20px;
@@ -103,7 +103,7 @@ margin-top: -38.5em;
   width: 100%;
   max-width: 360px;
   aspect-ratio: 9 / 16;
-  border: 4px solid #03d8d1;
+  border: 4px solid rgb(140,187,235);
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(3, 216, 209, 0.4);
@@ -126,13 +126,13 @@ margin-top: -38.5em;
   aspect-ratio: 16 / 9;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(3, 216, 209, 0.4);
-  border: 4px solid #03d8d1;
+  border: 4px solid rgb(140,187,235);
   border-radius: 15px;
 }
 
 .videostexto2 {
-  color:rgb(255, 118, 177);
-  background-color: rgb(3, 216, 209);
+  color:rgb(212, 67, 67);
+  background-color: rgb(140,187,235);
   width: 14.2em;
   border: 3px solid;
   border-radius: 20px;
@@ -148,16 +148,16 @@ margin-top: -38.5em;
 }
 h4{
   margin-top: 27.5em;
-  color:rgb(255, 118, 177);
-  background-color: rgb(3, 216, 209);
+  color:rgb(212, 67, 67);
+  background-color: rgb(140,187,235);
   width: 9em;
-  border-color: rgb(255, 118, 177);
+  border-color: rgb(212, 67, 67);
   border: 3px solid;
   border-radius: 20px;
   margin-top: 0em;
 }
 .links{
-  background-color: rgb(3, 216, 209);
+  background-color: rgb(140,187,235);
   width: 20em;
   border: 4px solid;
   border-color:rgb(4, 84, 95);
@@ -165,19 +165,19 @@ h4{
   margin-left: 60em;
 }
 .linkstexto, .exclamacao{
-  color:rgb(255, 118, 177);
+  color:rgb(212, 67, 67);
 }
 .shuckle{
   border: 4px solid;
   border-color: red;
   border-radius: 20px;
   margin-top: 5em;
-  margin-left: 30em;
+  margin-left: 32em;
   width: 400px;
   height: 300px;
 }
 .paras{
-  background-color: rgb(3, 216, 209);
+  background-color: rgb(140,187,235);
   width: 70em;
   border: 4px solid;
   border-color:rgb(4, 84, 95);
@@ -207,4 +207,67 @@ h4{
   border-radius: 2em;
   height: 19.5em;
   width: 19.5em;
+}
+.Bits{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em;
+}
+.chola, .amigos, .robo, .maioral, .geladeira, .pressao, .pinto{
+  color:rgb(212, 67, 67);
+  background-color: rgb(140,187,235);
+  width: 7.5em;
+  border-color: rgb(212, 67, 67);
+  border: 3px solid;
+  border-radius: 20px;
+  width: 15em;
+  height: 15em;
+  text-align: center;
+}
+.bitsimg{
+  width: 10em;
+  height: 10em;
+}
+.bitsp{
+  color:rgb(212, 67, 67);
+}
+.bitst{
+  text-align: center;
+  color:rgb(212, 67, 67);
+  border-color: rgb(212, 67, 67);
+  border: 3px solid;
+  border-radius: 20px;
+  background-color: rgb(140,187,235);
+  width: 7.5em;
+  margin: 0 auto;
+}
+.chola{
+  background-color: #01f8df;
+  border-color: #01e5a6;
+}
+.amigos{
+  background-color: #4e8dff;
+  border-color: #2844ca;
+}
+.robo{
+  background-color: #a1a1a1;
+  border-color: #595959;
+}
+.maioral{
+  background-color: #d7d1d3;
+  border-color: #3d5bb3;
+}
+.geladeira{
+  background-color: #ff4a58;
+  border-color: #d31919;
+}
+.pressao{
+  background-color: #af85ff;
+  border-color: #8414fb;
+}
+.pinto{
+  background-color: #e6ce55;
+  border-color: #fedc01;
 }

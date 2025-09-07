@@ -44,15 +44,15 @@ a{
     border: 4px solid;
     border-radius: 20px;
     border-color: darkgrey;
-    background-color: rgb(3, 216, 209);
+    background-color: rgb(140,187,235);
     width: 18em;
     height: 31em;
 }
 .leotexto{
-  color:rgb(255, 118, 177);
-  background-color: rgb(3, 216, 209);
+  color:rgb(212, 67, 67);
+  background-color: rgb(140,187,235);
   width: 8.7em;
-  border-color: rgb(255, 118, 177);
+  border-color: rgb(212, 67, 67);
   border: 4px solid;
   border-radius: 20px;
   text-align: center;
@@ -63,16 +63,16 @@ a{
 }
 p{
   font-size: 22px;
-  color:rgb(255, 118, 177);
+  color:rgb(212, 67, 67);
   font-family: 'Times New Roman', Times, serif;
 }
 h4{
   text-align: left;
   margin-top: 27.5em;
-  color:rgb(255, 118, 177);
-  background-color: rgb(3, 216, 209);
+  color:rgb(212, 67, 67);
+  background-color: rgb(140,187,235);
   width: 9em;
-  border-color: rgb(255, 118, 177);
+  border-color: rgb(212, 67, 67);
   border: 3px solid;
   border-radius: 20px;
   margin-top: 0em;
